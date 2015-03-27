@@ -1,0 +1,5 @@
+modules/
+modules
+.vagrant
+.pe_build
+Gemfile.lock
