@@ -26,6 +26,7 @@ This is a collection of example classification for all of the Puppet Labs suppor
   bundle install
   r10k puppetfile install -v
   ```
+3. You should now have a folder called `modules` in the root of this repo. R10k created that folder and put all the Puppet Supported modules into it.
 
 ### Classification:
 
