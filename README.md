@@ -2,7 +2,7 @@
 
 This is a collection of example classification for all of the Puppet Labs supported modules from [The Forge](https://forge.puppetlabs.com).
 
-**tl;dr** The [classification folder](classification) has examples of valid Puppet code that wraps the Forge modules into profiles and does basic things with them.
+**tl;dr** The [site folder](site) has examples of valid Puppet code that wraps the Forge modules into profiles and does basic things with them.
 
 ## So, how do I use this?
 
@@ -30,8 +30,8 @@ This is a collection of example classification for all of the Puppet Labs suppor
 
 ### Classification:
 
-1. Inside of the `classification` folder are examples of using the [Roles](https://puppetlabs.com/presentations/designing-puppet-rolesprofiles-pattern) and [Profiles](http://garylarizza.com/blog/2014/02/17/puppet-workflow-part-2/) design pattern to implement application-specific modules (in this case, supported modules from the forge).
-2. I've made [profiles](classification/profiles/manifests/) for each of the component modules, named after the module from the forge.
+1. Inside of the `site` folder are examples of using the [Roles](https://puppetlabs.com/presentations/designing-puppet-rolesprofiles-pattern) and [Profiles](http://garylarizza.com/blog/2014/02/17/puppet-workflow-part-2/) design pattern to implement application-specific modules (in this case, supported modules from the forge).
+2. I've made [profiles](site/profiles/manifests/) for each of the component modules, named after the module from the forge.
 
   **NOTE**: These profiles are super basic as of now, and I just pulled examples from the test folders and README's from each Forge module. I absolutely welcome and encourage pull requests to add more real world examples of using these Forge modules.
 
