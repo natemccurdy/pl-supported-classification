@@ -4,7 +4,7 @@ if 'master' in $::hostname {
     path    => '/etc/puppetlabs/puppet/puppet.conf',
     section => 'main',
     setting => 'basemodulepath',
-    value   => '/vagrant/modules:/vagrant/classificaion:/etc/puppetlabs/puppet/modules:/opt/puppet/share/puppet/modules',
+    value   => '/vagrant/modules:/vagrant/site:/etc/puppetlabs/puppet/modules:/opt/puppet/share/puppet/modules',
   }
 }
 
