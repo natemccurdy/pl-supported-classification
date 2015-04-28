@@ -1,5 +1,5 @@
 # Basic simple_node role
-class roles::simple_node {
+class role::simple_node {
 
   include profile::ntp
   include profile::firewall
