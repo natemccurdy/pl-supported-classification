@@ -1,5 +1,5 @@
 #  An example of puppetlabs/reboot
-class profiles::windows::reboot {
+class profile::windows::reboot {
 
   if $::osfamily == 'windows' {
 

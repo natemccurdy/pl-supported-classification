@@ -1,5 +1,5 @@
 # Do some things with puppetlabs/apt
-class profiles::apt {
+class profile::apt {
 
   if $::osfamily == 'Debian' {
     class { '::apt':
@@ -23,7 +23,7 @@ class profiles::apt {
     }
 
     # Add this to our Concat example
-    profiles::motd::register{ 'Puppetlabs/Apt': }
+    profile::motd::register{ 'Puppetlabs/Apt': }
 
   }
 

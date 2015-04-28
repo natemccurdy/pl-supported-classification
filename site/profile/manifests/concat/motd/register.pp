@@ -1,5 +1,5 @@
 # let other modules register themselves in the motd
-define profiles::concat::motd::register (
+define profile::concat::motd::register (
   $content = undef,
   $order   = '10',
 ) {

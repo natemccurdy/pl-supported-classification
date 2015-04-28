@@ -1,5 +1,5 @@
 # Create some websites with puppetlabs/apache
-class profiles::webserver (
+class profile::webserver (
   $docroot = '/var/www/site'
 ){
 
@@ -23,6 +23,6 @@ class profiles::webserver (
   }
 
   # Add this to our Concat example
-  profiles::motd::register{ 'Puppetlabs/Apache': }
+  profile::motd::register{ 'Puppetlabs/Apache': }
 
 }

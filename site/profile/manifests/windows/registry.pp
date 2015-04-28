@@ -1,5 +1,5 @@
 # Use the puppetlabs/registry module
-class profiles::windows::registry {
+class profile::windows::registry {
 
   $notice_caption = hiera('registry::notice_caption', 'LISTEN UP')
   $notice_text    = hiera('registry::notice_text', 'SHOULD YOU BE HERE?')

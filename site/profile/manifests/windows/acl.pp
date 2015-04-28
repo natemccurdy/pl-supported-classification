@@ -1,5 +1,5 @@
 # This is pulled from the puppetlabs/acl tests folder
-class profiles::windows::acl {
+class profile::windows::acl {
   include ::acl
 
   file { ['c:/tempperms',

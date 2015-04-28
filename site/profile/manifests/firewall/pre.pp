@@ -1,5 +1,5 @@
 # Pre firewall rules
-class profiles::firewall::pre {
+class profile::firewall::pre {
 
   # Default firewall rules
   firewall { '000 accept all icmp':
