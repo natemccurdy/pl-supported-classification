@@ -1,5 +1,5 @@
 # Setup a mysql database server using puppetlabs/mysql
-class profiles::mysql {
+class profile::mysql {
 
   $php  = hiera('mysql::bindings::php_enable',  false)
   $java = hiera('mysql::bindings::java_enable', false)

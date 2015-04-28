@@ -1,5 +1,5 @@
 # Set a MOTD of all install modules with puppetlabs/concat.
-class profiles::concat::motd (
+class profile::concat::motd (
   $motd = '/etc/motd'
 ) {
 

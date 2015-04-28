@@ -1,6 +1,6 @@
 # Create some java keystores with puppetlabs/java_ks
 # Taken from https://github.com/puppetlabs-operations/puppetlabs-activemq/blob/master/manifests/ssl.pp
-class profiles::java_ks {
+class profile::java_ks {
 
   $passwd    = hiera('java_ks::password', 'password')
   $configdir = hiera('amq_configdir', '/tmp')

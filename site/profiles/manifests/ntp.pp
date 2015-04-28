@@ -1,5 +1,5 @@
 # Setup an NTP client.
-class profiles::ntp {
+class profile::ntp {
 
   class { '::ntp':
     servers  => ['time-a.nist.gov', 'time-b.nist.gov'],
@@ -14,6 +14,6 @@ class profiles::ntp {
   }
 
   # Add this to our Concat example
-  profiles::motd::register{ 'Puppetlabs/ntp': }
+  profile::motd::register{ 'Puppetlabs/ntp': }
 
 }

@@ -1,5 +1,5 @@
 # Setup tomcat on a centos box
-class profiles::tomcat {
+class profile::tomcat {
 
   if $::osfamily == 'redhat' {
 

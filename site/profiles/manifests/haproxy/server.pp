@@ -1,7 +1,7 @@
 # Setup an HA proxy load balancer
 # Simple example from https://github.com/garystafford/garystafford-haproxy_node_config
 #
-class profiles::haproxy::server {
+class profile::haproxy::server {
 
   include ::haproxy
 

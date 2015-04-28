@@ -1,5 +1,5 @@
 # A member of an HA proxy load-balancer
-class profiles::haproxy::member (
+class profile::haproxy::member (
   $port = '80',
 ) {
 

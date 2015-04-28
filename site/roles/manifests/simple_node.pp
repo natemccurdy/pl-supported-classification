@@ -1,9 +1,9 @@
 # Basic simple_node role
 class roles::simple_node {
 
-  include profiles::ntp
-  include profiles::firewall
-  include profiles::inifile
-  include profiles::java
+  include profile::ntp
+  include profile::firewall
+  include profile::inifile
+  include profile::java
 
 }

@@ -1,5 +1,5 @@
 # Use puppetlabs/vcsrepo to make some repositories
-class profiles::vcsrepo {
+class profile::vcsrepo {
 
   vcsrepo { '/tmp/git_repo_01':
     ensure   => present,

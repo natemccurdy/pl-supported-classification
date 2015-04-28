@@ -1,5 +1,5 @@
 # Setup a basic, unsecure, postgresql server using puppetlabs/postgresql
-class profiles::postgresql {
+class profile::postgresql {
 
   $postgres_password = hiera('pgsql::password',       'TPSrep0rt!')
   $db_name           = hiera('pgsql::db::name',       'testdb')

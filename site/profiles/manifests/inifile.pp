@@ -1,5 +1,5 @@
 # Modify some files with puppetlabs/inifile
-class profiles::inifile {
+class profile::inifile {
 
   $file_path = hiera(inifile_test, '/tmp/foo.ini')
 
@@ -11,7 +11,7 @@ class profiles::inifile {
   file { $file_path:
     ensure => file,
     mode   => '0666',
-    source => 'puppet:///modules/profiles/inifile_test.ini',
+    source => 'puppet:///modules/profile/inifile_test.ini',
   }
 
   ini_setting { 'change owner name':
